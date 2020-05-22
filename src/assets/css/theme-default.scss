@@ -1,5 +1,6 @@
 /** 主题样式 **/
 @import './theme/default';
+@import "../libs/element-variables";
 @import "../libs/element-variables-default";
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
 
