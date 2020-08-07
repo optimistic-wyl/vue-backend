@@ -118,6 +118,16 @@ const staticRoute = [
         ]
     },
     {
+        path: '/toolaction-dragresize',
+        component: Layout,
+        children: [
+            {
+                path: '',
+                component: () => import(/* webpackChunkName: 'themeChange' */ '../page/toolaction/dragresize')
+            }
+        ]
+    },
+    {
         path: '*',
         redirect: '/error/404'
     }
